@@ -8,6 +8,7 @@ import { Text, View } from './Themed';
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
     <View>
+
       <View style={styles.getStartedContainer}>
         <Text
           style={styles.getStartedText}
@@ -38,6 +39,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
           </Text>
         </TouchableOpacity>
       </View>
+      
     </View>
   );
 }
@@ -49,6 +51,7 @@ function handleHelpPress() {
 }
 
 const styles = StyleSheet.create({
+
   getStartedContainer: {
     alignItems: 'center',
     marginHorizontal: 50,
